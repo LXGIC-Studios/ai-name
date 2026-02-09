@@ -1,0 +1,45 @@
+{
+  "name": "@lxgicstudios/ai-name",
+  "version": "1.0.0",
+  "description": "Generate creative package and project names from a description. Checks npm and domain availability instantly. Multiple naming styles.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "ai-name": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "name-generator",
+    "project-name",
+    "package-name",
+    "npm",
+    "cli",
+    "creative",
+    "naming",
+    "domain-check",
+    "availability",
+    "developer-tools",
+    "typescript",
+    "brainstorm",
+    "startup-name"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/ai-name"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.9.3"
+  }
+}
